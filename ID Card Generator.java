@@ -42,7 +42,7 @@ public class IDCardGenerator extends JFrame {
         add(idCardLabel);
 
         generateButton.addActionListener(new ActionListener() {
-            @Override
+            
             public void actionPerformed(ActionEvent e) {
                 generateIDCard();
             }
