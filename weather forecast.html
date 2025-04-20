@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Weather Forecast </title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: 'Segoe UI', sans-serif;
+            }
+            body {
+                background: linear-gradient(to left,blue,rgb(34, 51, 48));
+                align-items: center;
+                padding: 20px;
+            }
+            .weather-card {
+                background: white;
+                padding: 30px 25px;
+                width: 100%;
+            }
+            .location {
+                font-size: 24px;
+                color: brown;
+            }
+            .temp {
+                font-size: 20px;
+                font-weight: bold;
+                color: orange;
+            }
+            .weather-icon {
+                font-size: 20px;
+                
+            }
+            .condition {
+                font-size: 10px;
+                color: violet;
+                
+            }
+            .forecast {
+             display: flex;
+             justify-content: space-between;
+             gap: 10px;
+             }
+             .day {
+              flex: 1;
+              background: #f1f1f1;
+              border-radius: 10px;
+              padding: 10px;
+            
+            .day .minmax {
+             font-size: 5px;
+            color: grey;
+            }
+        }
+        </style>
+     </head>
+     <body>
+        <h1>Weather forecast</h1>
+
+        <div class="weather-card">
+          <div class="location">📍bellary</div>
+          <div class="temp">22°C</div>
+          <div class="weather-icon">🌞</div>
+          <div class="condition">Sunny</div>
+          <div class="forecast">
+            <div class="day">
+              <h4>Mon</h4>
+              <p>⛅</p>
+              <div class="minmax">20°C / 15°C</div>
+            </div>
+            <div class="day">
+              <h4>Tue</h4>
+              <p>🌧️</p>
+              <div class="minmax">18°C / 14°C</div>
+            </div>
+            <div class="day">
+              <h4>Wed</h4>
+              <p>🌦️</p>
+              <div class="minmax">19°C / 16°C</div>
+            </div>
+          </div>
+        </div>
+    </body>
+    </html>
+
+ 
